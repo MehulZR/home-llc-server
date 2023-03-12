@@ -13,6 +13,7 @@ npm install
 # Configuring Environment Variable
 
 _A basic .env file have been included._
+
 Open the **.env** file with a text editor and change the Environment Variables values respectivily:
 
 - PORT
