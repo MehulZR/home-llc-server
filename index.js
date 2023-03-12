@@ -6,7 +6,7 @@ import bcrypt from "bcrypt";
 import pg from "pg";
 
 const { Pool } = pg;
-const pool = new Pool();
+const pool = new Pool({ssl:true});
 const App = express();
 
 App.use(cors({ origin: process.env.ORIGIN, credentials: true }));
